@@ -19,7 +19,7 @@ public class Assignment1_createaccount_week2day2 {
 		driver.findElement(By.className("decorativeSubmit")).click();//clicking on login button
 		driver.findElement(By.partialLinkText("SFA")).click();//clicking on CRM/SFM link
 		driver.findElement(By.linkText("Create Account")).click();//clicking on create account
-		driver.findElement(By.id("accountName")).sendKeys("Aishwaryarajasegarann");//giving the account name
+		driver.findElement(By.id("accountName")).sendKeys("Aishwaryarajasegareann");//giving the account name
 		driver.findElement(By.name("description")).sendKeys("Selenium Automation Tester.");//giving the description 
 		WebElement industryname = driver.findElement(By.name("industryEnumId"));//getting the webelemtn of industryname
 		Select selecting_industryname= new Select(industryname);//instantiate the select class by passsing the dd webelement to the select constructor

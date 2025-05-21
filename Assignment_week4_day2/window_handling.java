@@ -53,7 +53,7 @@ public class window_handling {
 	    	
 	    }
         
-	    driver.switchTo().window(list_windows.get(0));
+	    driver.switchTo().window(list_windowss.get(0));
 	  driver.quit();
 	}
 
